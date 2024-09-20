@@ -1,2 +1,11 @@
-# lab-recursos-dimensionamento-vm-azure
-Desafio de projeto, lab, Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure.
+# Desafio de projeto
+
+lab, Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure.
+
+## Aprendizados :wink:
+
+Neste lab entendemos inicialmente sobre o dimensionamento das VMs, o dimensionamento da minha VM vai depender do tipo de uso que eu pretendo dar para essa VM, o volume de acessos e dados, a frequência dos acessos, o nível de disponibilidade dos serviços entre outras coisas. Assim como em outros serviços existem uma série de opções que variam nos critérios citados anteriormente e também influenciam diretamente na previsão de custo que é apresentada ao selecionar as suas definições de dimensionamento. Em determinadas situações a sua necessidade de recursos pode variar e o dimensionamento feito sem exagerado ou ainda insuficiente para lidar com a demanda, outro aspecto bastante interessante do dimensionamento e redimensionamento é a possibilidade de ser executado de forma manual ou automática, sendo o dimensionamento automático uma ótima opção para buscar economizar em momento de baixa demanda, e se adequar rapidamente e de forma automática em momentos de alta demanda, esse dimensionamento embora automático, obedece métricas definidas em sua configuração que considera o uso médio da CPU para criar novas instâncias ou finalizar instâncias ociosas, além de obedecer um dimensionamento mínimo e máximo pré-determinados para evitar surpresas. Também vimos a opção de uso de máquinas com desconto utilizando o spot, que é basicamente o uso de recursos Azure que estão ociosos por um preço menor, mas que podem ser tomados de volta a qualquer momento quando essas máquinas forem requeridas, é um modelo que pode ser interessante para ambientes que podem sofrer interrupções sem grande problemas, como ambientes de desenvolvimento e teste, mas devem ser evitadas em ambiente de produção. Além de diversas outras configurações de rede, segurança, armazenamento entre outras, temos também famílias de máquinas que podemos escolher, que trazem características específicas como máquinas voltadas para altas cargas de processamento, memória entre outras. Por fim, outro ponto muito valioso dos laboratórios, são as experiências que a Professora passa, que simplificam a compreensão dos conteúdos e já nos prepara para algumas situações corriqueiras da área.
+
+## Autor
+
+- [@CarlosGomes](https://github.com/Darkm4ge)
